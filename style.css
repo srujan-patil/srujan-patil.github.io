@@ -1,0 +1,139 @@
+*{
+    box-sizing: border-box;
+}
+
+.body{
+
+    margin: 0px;
+    padding: 0px;
+    font: poppins;
+}
+
+#page{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+.navbar{ display: flex;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    left: 0;
+    top: 0;
+    background: white;
+    justify-content: space-around;
+    box-shadow:5px 10px 30px rgb(0, 0, 0, 0.02);
+    z-index: 1;
+}
+
+.logo img{
+    
+    border: 1px;
+    height: 45px;
+    
+    
+}
+
+.nav_list{
+    width: 40%;
+    display: flex;
+    align-items:center ;
+    justify-content:center ;
+
+}
+ .nav_list li{
+     list-style: none;
+     transition: all;
+     
+ }
+
+ .nav_list li a{
+    text-decoration: none;
+    padding: 0px 23px;
+    display: flex;
+    height: 40px;
+    line-height: 43px;
+    font-weight: 500;
+    font-size: 1em;
+    letter-spacing: 1px;
+    color: gray;
+
+}
+
+.hey{
+    color:#39bfbc;
+    font-size: 0.9em;
+    font-weight: 500;
+    border-bottom: 2px solid #39bfbc ;
+}
+
+.image{
+    width: 500px;
+    height: 500px;
+}
+.image img{
+    width: 100%;
+    height: 95%;
+    object-fit: contain;
+}
+
+.content{
+    display: flex;
+    width: 90%;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+    left: 50%;
+    right: 50%;
+    transform: translate(-50%,-100%);
+
+}
+.content-main{
+    width: 500px;
+}
+
+.content-main h1{
+    font-size: 3.5em;
+    color: #1c3548;
+    margin: 0px 0px 10px 0px;
+    line-height: 60px;
+}
+.content-main p{
+    color: gray;
+}
+
+.content-main a{ 
+    text-decoration: none;
+
+}
+
+.contest-btn{
+    width: 180px;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white; 
+    background-color: #1db096;
+    border-radius: 20px;
+    box-shadow:5px 10px 30px rgb(24,139, 119, 0.2);
+
+
+}
+
+.contest-btn:hover{
+    background-color: #23cdaf;
+    transition: all ease 0.2s;
+
+}
+
+.nav_list li a:hover{
+    background-color: #23cdaf;
+    color: white;
+    box-shadow:5px 10px 30px rgb(24,139, 119, 0.2);
+    transition: all ease 0.2s;
+
+
+}
